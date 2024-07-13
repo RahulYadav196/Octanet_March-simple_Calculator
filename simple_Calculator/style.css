@@ -1,0 +1,48 @@
+*{
+    margin: 0 ;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgba(0, 0, 0, 0.214);
+}
+.inp{
+    height: 37px;
+    width: 220px;
+    border-radius: 21px;
+    border: 2px solid;
+}
+.c1{
+    height: 30px;
+    width: 22%;
+    margin: 6px;
+    margin-right: 17px;
+    
+}
+.main{
+    border: 2px dotted  red;
+align-items: center;
+justify-content: center;
+height: 320px;
+width: 290px;
+background-color: rgba(128, 128, 128, 0.332);
+display: flex;
+flex-wrap: wrap;
+padding: 5px;
+margin: 48px 30px 2px 450px;
+font-size: large;
+text-align: center;
+    }
+.highlight{
+background-color: rgba(0, 255, 255, 0.223);
+color: rgba(0, 0, 255, 0.501);
+font-weight: 700;
+font-size: 1em;
+
+}
+.highlight:hover{
+    background-color: gray;
+    color: black;
+    transition: 1s;
+    
+}
